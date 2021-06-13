@@ -23,7 +23,7 @@ const Projects = () => {
     setActive(category);
   };
   return (
-    <div
+    <motion.div
       variants={routeAnimation}
       initial="initial"
       animate="animate"
@@ -55,7 +55,7 @@ const Projects = () => {
           </motion.div>
         ))}
       </motion.div>
-    </div>
+    </motion.div>
   );
 };
 
