@@ -208,3 +208,9 @@ export const projects: IProject[] = [
     key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
   },
 ];
+
+export const profile = [
+  {
+    image_url: "/profile.jpeg",
+  },
+];

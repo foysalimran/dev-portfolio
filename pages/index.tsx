@@ -3,7 +3,6 @@ import Head from "next/head";
 import { fadeInUp, routeAnimation, stagger } from "../animations";
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
-
 const About = ({ endpoint }) => {
   // console.log(services);
   console.log(endpoint);

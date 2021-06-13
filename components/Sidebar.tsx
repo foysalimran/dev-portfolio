@@ -3,7 +3,9 @@ import Image from "next/image";
 import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import { GiTie } from "react-icons/gi";
 import { GoLocation } from "react-icons/go";
+import { profile } from "../data";
 const Sidebar = () => {
+  const profileImage = profile[0].image_url;
   const { theme, setTheme } = useTheme();
   const changeTheme = () => {
     setTheme(theme === "light" ? "dark" : "light");
@@ -11,7 +13,7 @@ const Sidebar = () => {
   return (
     <div>
       <Image
-        src="https://iamfoysal.com/wp-content/uploads/2021/05/foysa-wcamp.jpeg"
+        src={profileImage}
         alt="User avatar"
         className="mx-auto rounded-full"
         height="128"

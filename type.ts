@@ -12,6 +12,9 @@ export interface ISkill {
   Icon: IconType;
 }
 
+export interface IProfile {
+  image_url: string;
+}
 export interface IProject {
   id: number;
   name: string;
